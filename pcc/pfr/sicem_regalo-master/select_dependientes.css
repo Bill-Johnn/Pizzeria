@@ -1,0 +1,16 @@
+#demoIzq, #demoDer { width:296px; text-align:center; }
+
+#demoDer { float:right; }
+
+
+
+select {
+border: solid 2px #eee;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+background-color: white;
+padding: 6px;
+margin: 2px;
+box-shadow: none;
+}

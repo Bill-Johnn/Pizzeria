@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <title>Pizzeria Panucci</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">-->
+    <link rel="stylesheet" href="css/Novedades.css">
+    <link rel="stylesheet" href="css/fuente.css">    
+    <body>
+      <!-- Navegación (Posición superior) -->
+      <div class="w3-top w3-hide-small">
+          <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+            <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+            <a href="Novedades.html" class="w3-bar-item w3-button">NOVEDADES</a>
+            <a href="Ofertas.html" class="w3-bar-item w3-button">OFERTAS</a>
+            <a href="Nosotros.html" class="w3-bar-item w3-button">NOSOTROS</a>
+            <a href="Locales.html" class="w3-bar-item w3-button">LOCALES</a>
+          </div>
+        </div>
+        <!-- Header con imagen -->
+        <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+          <div class="w3-display-middle w3-center">
+            <span class="w3-text-white w3-hide-small" style="font-size:100px">Novedaeds</span>
+            <p><a href="#novedades" class="w3-button w3-xxlarge w3-black">Mira nuestras novedades.</a></p>
+          </div>
+        </header>
+
+  <!-- Menu de novedades -->
+  <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="novedades">
+
+  <div class="w3-container">
+    <h2>Tabbed Image Gallery</h2>
+    <p>Click on the images below:</p>
+  </div>
+<!-- Imagenes miniatura -->
+    <div class="w3-row-padding">
+      <div class="w3-col s3 w3-container">
+        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
+        <img src="https://k14.kn3.net/taringa/1/1/4/7/5/0/04/zalunga/D01.jpg" alt="Nature" style="width:350px; height:250px">
+        </a>
+      </div>
+      <div class="w3-col s3 w3-container">
+        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Snow');">
+        <img src="https://img.elcomercio.pe/files/ec_article_multimedia_gallery/uploads/2017/09/15/59bbece77d607.jpeg" alt="Snow" style="width:350px; height:250px">
+        </a>
+      </div>
+      <div class="w3-col s3 w3-container">
+        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
+        <img src="https://i2.wp.com/i.huffpost.com/gen/1066492/original.jpg" alt="Mountains" style="width:350px; height:250px">
+        </a>
+      </div>
+      <div class="w3-col s3 w3-container">
+        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+        <img src="https://img.elcomercio.pe/files/ec_article_multimedia_gallery/uploads/2017/09/15/59bbecebbf4bd.jpeg" alt="Lights" style="width:350px; height:250px">
+        </a>
+      </div>
+    </div><br>
+    
+
+<!-- Imagenes tamaño grande-->
+<div class="w3-content">
+<div id="Nature" class="picture w3-display-container" style="display:none">
+  <img src="https://k14.kn3.net/taringa/1/1/4/7/5/0/04/zalunga/D01.jpg" alt="Nature" style="width:972px; height:558px">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white w3-xxlarge">Nature</div>
+</div>
+
+<div id="Snow" class="picture w3-display-container" style="display:none">
+  <img src="https://img.elcomercio.pe/files/ec_article_multimedia_gallery/uploads/2017/09/15/59bbece77d607.jpeg" alt="Snow" style="width:972px; height:558px">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Snow</div>
+</div>
+
+<div id="Mountains" class="picture w3-display-container" style="display:none">
+  <img src="https://i2.wp.com/i.huffpost.com/gen/1066492/original.jpg" alt="Mountains" style="width:972px; height:558px">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
+</div>
+
+<div id="Lights" class="picture w3-display-container" style="display:none">
+  <img src="https://img.elcomercio.pe/files/ec_article_multimedia_gallery/uploads/2017/09/15/59bbecebbf4bd.jpeg" alt="Lights" style="width:972px; height:558px">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Northern Lights</div>
+</div>
+</div>
+</div>
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "block";
+}
+</script>
+
+</body>
+</html> 

@@ -1,0 +1,239 @@
+* {margin:0; padding:0;}
+
+body {background:url(../img/bgr.jpg) top center no-repeat #101620; font-family:Arial, Helvetica, sans-serif;}
+
+
+h3 {font-size:22px; letter-spacing:-1px; line-height:24px; color:#fff;}
+h4 {font-size:20px; color:#fff;}
+h5 {font-size:14px; color:#fff;}
+
+
+p {font-size:12px; color:#bcedf1; font-family:Arial, Helvetica, sans-serif; line-height:18px;}
+a {outline:none; color:#f4851c; text-decoration:none;}
+a:hover {text-decoration:underline;}
+img {border:0;}
+input:focus, textarea:focus {outline:none;}
+
+#wrapTop {float:left; width:100%; margin:auto; right:150px;}
+#sesionUsuario {
+	position: absolute;
+	right: 15px;
+	top: 100px;
+	color: #FFF;
+	font-size: 14px;
+	font-style: italic;
+	text-align: right;
+	border-color: #FFF;
+	border-width: thin;
+	text-transform: capitalize;
+}
+#sesionUsuario p {color:#FFF; font-size:18px; font-style:italic;}
+
+    #topSegment {margin:auto; width:982px;}
+        .logo {float:left; padding-top:23px; padding-left:1px}
+            .logo h1 a {float:left; width:209px; height:50px; display:block; text-indent:-9999px; background:url(../img/logo.png) left top no-repeat;}
+
+        .mainNav {float:right; padding:32px 0 0 0;}
+        .header {float:left; width:962px; height:230px; background:url(../img/escudo1.png) center center no-repeat; text-indent:-9999px;}
+
+
+#wrapContent {float:left; width:100%; margin:auto;}
+    .homeBgr {background:url(../img/featured-light.jpg) center 385px no-repeat;}
+
+    #content {margin:auto; width:982px;}
+
+        .jsclass body .randomslogans {display: none}
+
+            .contentTitle {float:left; width:967px; padding-left:15px}
+                .contentTitle h2 {float:left; width:947px; height:66px; text-indent:-9999px;}
+                    .contentTitle h2.homeTitle-1 {background:url(../img/title-home-1.png) left top no-repeat;}
+                    .contentTitle h2.homeTitle-2 {background:url(../img/title-home-2.png) left top no-repeat;}
+                    .contentTitle h2.homeTitle-3 {background:url(../img/title-home-3.png) left top no-repeat;}
+                    .contentTitle h2.aboutTitle {background:url(../img/title-about.png) left top no-repeat;}
+                    .contentTitle h2.servicesTitle {background:url(../img/title-services.png) left top no-repeat;}
+                    .contentTitle h2.worksTitle {background:url(../img/title-works.png) left top no-repeat;}
+                    .contentTitle h2.getAquoteTitle {background:url(../img/title-get-a-quote.png) left top no-repeat;}
+
+                    .randomslogans p {padding:5px 0 0 20px; width:680px;}
+
+        .mainColumn {float:left; width:724px;}
+            .mainColumn h4  {padding-left:20px;}
+            .mainColumn p {padding:5px 20px 10px 20px;}
+
+            /* Home content */
+            .featuredBox {float:left; width:724px;}
+                .featuredRibbon {position:absolute; top:0; left:0; width:165px; height:165px; background:url(../img/featured-ribbon.png) left top no-repeat;}
+                .featuredImg {float:left; position:relative; width:704px; height:403px; padding:70px 0 0 20px; background:url(../img/featured-bgr.png) left top no-repeat;}
+
+            .definitionBox {float:left; width:724px; padding:35px 0 0 0;}
+                .skillsHolder {float:left; width:710px; padding:20px 0 0 14px;}
+                    .skillsBox {float:left; width:335px; height:93px; padding-right:5px;}
+                        .speed {background:url(../img/icon-speed.png) left top no-repeat;}
+                        .ethics {background:url(../img/icon-ethics.png) left top no-repeat;}
+                        .durability {background:url(../img/icon-durability.png) left top no-repeat;}
+                        .multitasking {background:url(../img/icon-multitasking.png) left top no-repeat;}
+                            .skillsBox p {padding-left:70px; font-size:12px; line-height:15px;}
+                            .skillsBox h5 {padding-left:70px;}
+
+            /* About content */
+            .aboutHolder {float:left; width:704px; padding:34px 0 10px 20px;}
+                .aboutBox {float:left; width:342px; padding-bottom:30px;}
+                    .aboutBox img {float:left;}
+                    .aboutDetails {float:right; width:217px;}
+                        .aboutDetails h4 {padding:0 0 1px 0; line-height:20px; padding-bottom:3px;}
+                        .aboutDetails p {padding:0 14px 7px 0;}
+                            .aboutDetails p i {font-size:10px; font-style:normal; text-transform:uppercase; color:#faf1a5;}
+
+            /* Services content */
+            .servicesHolder {float:left; width:704px; padding:30px 0 20px 20px;}
+                .servicesBox {float:left; width:613px; background-position:0 5px; background-repeat:no-repeat; padding-left:65px;}
+                    .servicesBox h3 {font-size:15px; color:#fff; padding:0;}
+                    .servicesBox p {padding:0 0 19px 0;}
+                        .interfaceDesign {background-image:url(../img/icon-interface-design.jpg);}
+                        .iconsDesign {background-image:url(../img/icon-icon-design.jpg);}
+                        .xhtmlCss {background-image:url(../img/icon-xhtml-css.jpg);}
+                        .ajax {background-image:url(../img/icon-ajax.jpg);}
+                        .webStandards {background-image:url(../img/icon-web-standards.jpg);}
+                        .usability {background-image:url(../img/icon-usability.jpg);}
+
+            #wrapContent {}
+
+            /* Works content */
+            .worksThumbsHolder {float:left; width:962px; padding:9px 0 0 0; margin-left:20px; background:url(../img/separator.gif) bottom left repeat-x;}
+                ul#worksNav {float:left; width:962px;}
+                    ul#worksNav li {float:left; display:inline-block; width:191px; height:58px; list-style-type:none; padding-bottom:25px;}
+                        ul#worksNav li a {display:block; width:121px; height:58px; padding:0 0 0 70px; font-size:11px; line-height:58px;  background-position:0 0; background-repeat:no-repeat;}
+                            ul#worksNav li a span {display:table-cell; width:121px; height:58px; text-align:left; vertical-align:middle;}
+
+                            ul#worksNav li a#hobsonNav {background-image:url(../img/works/hobson-s.gif);}
+                            ul#worksNav li a#dstockNav{background-image:url(../img/works/digital-s.gif);}
+                            ul#worksNav li a#atmcashNav{background-image:url(../img/works/atmcash-s.gif);}
+                            ul#worksNav li a#frontRangeNav {background-image:url(../img/works/frontrange-s.gif);}
+                            ul#worksNav li a#bytecNav {background-image:url(../img/works/bytec-s.gif);}
+                            ul#worksNav li a#nwCarpetsNav {background-image:url(../img/works/nw-carpets-s.gif);}
+                            ul#worksNav li a#nikonNav {background-image:url(../img/works/nikon-s.gif);}
+                            ul#worksNav li a#skypeNav {background-image:url(../img/works/skype-s.gif);}
+                            ul#worksNav li a#catNav {background-image:url(../img/works/cat-s.gif);}
+                            ul#worksNav li a#thirdNav{background-image:url(../img/works/3rdpay-s.png);}
+                            ul#worksNav li a#consultaNav{background-image:url(../img/works/consulta-s.png);}
+                            ul#worksNav li a#nokiaNav {background-image:url(../img/works/nokia-s.gif);}
+                            ul#worksNav li a#logitechNav {background-image:url(../img/works/logitech-s.gif);}
+                                ul#worksNav li a:hover {background-position:0 -116px; text-decoration:none;}
+                                ul#worksNav li a.activeWork {background-position:0 -58px; color:#868686; text-decoration:none;}
+
+            #worksContent {min-height:750px; height:auto !important; height:750px;}
+
+            .worksHolder {float:left; width:724px; margin-top:8px; background:url(../img/works-bgr.gif) left top repeat-y;}
+                .worksLarge {float:left; width:724px; background:url(../img/works-header.gif) left top no-repeat; padding-top:69px;}
+                    .worksBox {float:left; width:678px; min-height:250px; height:auto !important; height:250px; background:url(../img/works-bottom.gif) left bottom no-repeat; padding:0 26px 17px 20px;}
+
+            .worksNav {float:left; width:724px; padding:0 0 40px 0;}
+                .worksNav a {display:block; height:23px; line-height:23px;; color:#bcedf1; font-size:11px;}
+                .worksLeftNav {float:left; width:300px; padding:0 0 0 20px;}
+                    .worksLeftNav a {background:url(../img/button-back.gif) left 0 no-repeat; padding-left:34px;}
+                        .worksLeftNav a:hover {background-position:left -23px; text-decoration:none;}
+                .worksRightNav {float:right; width:300px; text-align:right; padding:0 24px 0 0;}
+                    .worksRightNav a {background:url(../img/button-next.gif) right 0 no-repeat; padding-right:34px;}
+                        .worksRightNav a:hover {background-position:right -23px; text-decoration:none;}
+
+                .worksRight p.viewOnlineButton {background:url(../img/separator.gif) top left repeat-x;}
+                    .worksRight p.viewOnlineButton a {display:block; width:90px; height:26px; text-indent:-9999px; margin:4px 0 0 -4px; background:url(../img/view-online-button.png) 0 0 no-repeat;}
+                        .worksRight p.viewOnlineButton a:hover {background-position:0 -26px;}
+
+            .quoteFormHolder {float:left; width:683px; padding:34px 0 40px 20px;}
+                .quoteForm {float:left; width:644px; height:474px; padding:36px 0 0 39px; background:url(../img/get-a-quote-bgr.jpg) left top no-repeat;}
+                    .quoteForm fieldset {float:left; width:644px; height:474px; position:relative;  border:0;}
+                        .quoteForm fieldset input.getaquoteField {float:left; display:block; clear:left; width:327px; height:24px; background:url(../img/footer-input-bgr.gif) 0 0 no-repeat; border:0; margin-bottom:9px; font-size:11px; color:#6f7b8f; padding:9px 5px 0 6px;}
+                        .quoteForm fieldset textarea {float:left; clear:left; position:relative; z-index:5; width:317px; height:93px; border:0; background:none; margin-bottom:9px; overflow:auto; font-size:11px; color:#6f7b8f; padding:5px 9px 9px 6px; font-family:Arial, Helvetica, sans-serif;}
+                            .quoteFakeTextarea {position:absolute; display:block; z-index:1; top:295px; left:0; width:338px; height:108px; background:url(../img/quote-textarea-bgr.gif) 0 0 no-repeat;}
+                        .quoteForm fieldset p {float:left; width:338px; padding:0 0 9px 0; height:33px; position:relative;}
+                        .quoteForm fieldset select {float:left; clear:left; position:relative;}
+
+                            /* jDrop Specific... */
+                            div.jDrop {position:absolute; top:0; left:0; width:338px;}
+                            div.jSel {background:url(../img/footer-input-bgr.gif) 0 0 no-repeat; padding:0; z-index:1; position:relative; height:33px; overflow:hidden; float:left; width:338px; color:#6f7b8f; font-size:11px;}
+                            /*div.jSel.hover{background-position:0px -25px;color:#fff;}*/
+                            span.jSelOp {float:left; padding:9px 0 0 9px; white-space:nowrap;}
+                            div.jDropBut {background:url(../img/select-button.gif) 0 0 no-repeat; width:29px; height:33px; float:left; cursor:pointer;}
+                            div.jDropBut.hover {background-position:0px -33px;}
+                            div.jOpDrop {position:absolute; margin-top:1px; z-index:1000; display:none; background:url(../img/dropdown-bgr.gif) bottom center no-repeat; border:0; color:#6f7b8f;}
+                            * html div.jOpDrop {width:338px;}
+                            div.jOp {padding:2px 17px 3px 17px; font-size:11px; white-space:nowrap;}
+                            div.jOpDrop div.jOp.hover {color:white; cursor:pointer;}
+
+                        .quoteForm fieldset input.sendButton {float:left; clear:left; border:0; width:107px; margin-top:10px; height:41px; background:url(../img/button-send.png) 0 0 no-repeat; cursor:pointer;}
+                            .quoteForm fieldset input.sendButton:hover {background-position:0 -41px;}
+
+                        #info2 {float:left; color:#b0b0b0; font-size:11px; padding:22px 0 0 10px;}
+
+
+
+        .rightColumn {float:right; width:251px; padding-bottom:10px; padding-top:20px;}
+        .homeRight {padding-top:47px;}
+        .aboutRight {padding-top:64px;}
+        .servicesRight {padding-top:65px;}
+        .worksRight {padding-top:53px;}
+        .getaQuoteRight {padding-top:65px;}
+            .rightColumn h3 {padding-top:18px; color:#bcedf1;}
+                .rightColumn h3.projectName {background:url(../img/separator.gif) bottom left repeat-x; padding:18px 0;}
+                .rightColumn h3 span {font-size:10px; font-weight:normal; display:block; line-height:22px; padding-top:1px; text-transform:uppercase; color:#faf1a5; letter-spacing:normal;}
+            .rightColumn p {padding:5px 0 10px 0; color:#868686;}
+                .worksRight p {padding:15px 0 15px 0; background:url(../img/separator.gif) bottom left repeat-x;}
+            .rightColumn ul {padding:15px 0;}
+                .rightColumn ul li {list-style-type:none; padding-left:13px; background:url(../img/side-bullet.gif) 0 6px no-repeat; color:#868686; font-size:12px; line-height:18px;}
+
+            a.featuredButton {float:left; width:176px; height:49px; background:url(../img/button-explore.png) 0 0 no-repeat; text-indent:-9999px;}
+                a.featuredButton:hover {background-position:0 -49px;}
+
+            .rightColumn p.sideScreens {background:url(../img/separator.gif) bottom left repeat-x; padding-top:0;}
+                .rightColumn p.sideScreens a {display:inline-block; width:39px; height:42px; font-size:11px; margin:11px 11px 11px 0; text-indent:-9999px;}
+                    .rightColumn p.sideScreens a.hobson-1 {background:url(../img/works/hobson-side-1.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.hobson-2 {background:url(../img/works/hobson-side-2.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.hobson-3 {background:url(../img/works/hobson-side-3.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.hobson-4 {background:url(../img/works/hobson-side-4.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.dstock-1 {background:url(../img/works/dstock-side-1.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.dstock-2 {background:url(../img/works/dstock-side-2.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.dstock-3 {background:url(../img/works/dstock-side-3.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.atmcash-1 {background:url(../img/works/atmcash-side-1.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.atmcash-2 {background:url(../img/works/atmcash-side-2.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.atmcash-3 {background:url(../img/works/atmcash-side-3.jpg) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.consulta-1 {background:url(../img/works/consulta-side-1.png) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.consulta-2 {background:url(../img/works/consulta-side-2.png) 0 0 no-repeat;}
+                    .rightColumn p.sideScreens a.consulta-3 {background:url(../img/works/consulta-side-3.png) 0 0 no-repeat;}
+
+                        .rightColumn p.sideScreens a:hover, .rightColumn p.sideScreens a.activeSideScreen {background-position:0 -42px;}
+
+
+
+#footer {float:left; width:100%; height:424px; background:url(../img/footer-bgr-tile.jpg) left top repeat-x;}
+    .innerFooter {float:left; width:100%; position:relative; height:424px; background:url(../img/footer-bgr-img.jpg) bottom center no-repeat;}
+
+        .footerContent {width:962px; margin:auto; padding:27px 0 0 0;}
+            .footerContent h4 {padding-bottom:9px;}
+            .footerContent p {color:#383838;}
+
+            .leftFooter {float:left; width:678px; padding:0 0 0 10px;}
+                .footerHireBox {float:left; width:307px;}
+                    .footerHireBox p {padding:3px 5px 13px 0; color:#5a5a5a;}
+                    .footerHireBox p a {display:block; width:107px; height:41px; background:url(../img/button-geta-quote.png) left top no-repeat; text-indent:-9999px;}
+                        .footerHireBox p a:hover {background-position:0 -41px;}
+                .footerHelloBox {float:right; width:338px;}
+                    .footerForm {float:left; position:relative; width:338px; padding:5px 0 0 0px;}
+                    .footerForm fieldset {float:left; border:0; position:relative;}
+                        .footerForm fieldset input {float:left; width:327px; height:24px; background:url(../img/footer-input-bgr.gif) 0 0 no-repeat; border:0; margin-bottom:9px; font-size:11px; color:#6f7b8f; padding:9px 5px 0 6px;}
+                        .footerForm fieldset textarea {float:left; position:relative; z-index:10; width:317px; height:74px; border:0; background:none; margin-bottom:9px; overflow:auto; font-size:11px; color:#6f7b8f; padding:5px 9px 9px 6px; font-family:Arial, Helvetica, sans-serif;}
+                            .footerFakeTextarea {position:absolute; display:block; z-index:1; top:85px; left:0; width:338px; height:88px; background:url(../img/footer-textarea-bgr.gif) 0 -88px no-repeat;}
+                        .footerForm fieldset input.sayHelloButton {float:left; width:107px; margin-top:11px; height:41px; background:url(../img/button-send.png) 0 0 no-repeat; cursor:pointer;}
+                            .footerHelloBox fieldset input.sayHelloButton:hover {background-position:0 -41px;}
+
+                        #info {float:left; color:#b0b0b0; font-size:11px; padding:22px 0 0 10px;}
+
+                    .footerHelloBox p {float:left; width:336px; text-align:center; font-size:11px; color:#373737; line-height:15px; padding:60px 0 0 2px;}
+
+            .rightFooter {float:right; width:240px;}
+                .rightFooter p {line-height:20px; color:#5a5a5a;}
+
+
+#socialize, #tweet{ margin-bottom: 24px;}
+#tweet ul{ list-style: none;}
+#tweet li{ color: #5A5A5A; font-size: 12px;}
